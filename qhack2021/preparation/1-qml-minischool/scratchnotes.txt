@@ -1,0 +1,62 @@
+
+Prep Material
+-------------
+
+General ML Introduction (Classical)
+
+Google Developer (Josh Gordon) Machine Learning Playlist
+https://www.youtube.com/watch?v=cKxRvEZd3Mw&list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal
+
+'''
+
+Quantum ML Introduction
+
+Mini-School on QML w/ Qiskit and PennyLane
+https://www.youtube.com/playlist?list=PLE9Qrf4CJnRHQ8K_WKcuE4mNoXl2HgY-r
+
+Video1:
+
+    Variational circuits
+    Optimize
+    Build using PennyLane
+
+Video2:
+
+    State Preparation Algos
+    Use variational techniques to learn quantum state Preparation
+    Basis encoding
+    Amplitude encoding
+    Angle encoding
+        Quantum Feature Maps
+    For Data Embedding -> Qiskit preferred
+    For Optimization -> Pennylane preferred
+    
+Video3:
+
+Video4:
+
+    Gradient Descent
+    Vanishing and exploding gradients
+        * Gradient clipping
+        * Weight regularisation
+        * Avoiding certain activation functions
+        * Redesiging the network
+        * Redisual networks 
+    Barren Plateau
+        * If theta is initialized randomly, this can cause problems in the variational circuits
+        * The variance of the gradient of the loss function vanishes
+        * Graidents become concentrated around zero, requiring hire precision
+    Avoiding Barren Plateaus
+        * Introduce Structure into circuit (encoding with data)
+        * Use a local cost function
+        * Higher order optimisation methods (Hessian & Higher Order Derivatives)
+            ** Shown to not be successful
+
+'''
+
+
+
+
+
+
+

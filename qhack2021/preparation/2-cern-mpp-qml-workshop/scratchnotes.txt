@@ -1,0 +1,26 @@
+Part I: Classical machine learning with automatic differentiation
+ 
+Notebook 1-classical-ml-with-automatic-differentiation
+ 
+Learning objectives:
+    Be able to explain the concept of automatic differentiation
+    Be able to train a simple linear model using automatic differentiation
+Part II: Differentiable quantum computing
+
+Notebook 2-differentiable-quantum-computations
+
+Learning objectives:
+
+    Be able to implement a variational quantum circuit in PennyLane
+    Compute the gradient of a variational quantum circuit
+    Train a variational quantum circuit like a machine learning model
+Part III: Quantum gradients on remote devices
+
+Slides and Notebook 3-quantum-gradients-with-braket
+
+Learning objectives:
+
+    Be able to name and explain three different ways to compute quantum gradients
+    Understand why parameter-shift rules are needed for hardware
+    Be able to compute a quantum gradient on a remote backend
+
